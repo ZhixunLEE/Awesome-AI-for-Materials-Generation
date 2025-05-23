@@ -70,17 +70,8 @@ The discovery of novel materials with desired physical, chemical, or mechanical 
 |               | DAO           | DDPM   | Inorganic Crystals, Superconductors | Periodic Transformer | Composition, Property              | -             | 2025                                                                       |
 |               | CrystalGRW    | GRW    | Inorganic Crystals                  | EquiformerV2         | Property                           | 34.9M         | [2025](https://github.com/trachote/crystalgrw)                             |
 
----
 
-### Autoregressive Methods
 
-| Category           | Model          | Method         | Materials                | Backbone    | Condition                          | Size  | Code & Year                                     |
-| ------------------ | -------------- | -------------- | ------------------------ | ----------- | ---------------------------------- | ----- | ----------------------------------------------- |
-| **Autoregressive** | 3D-Scaffold    | Autoregressive | Organic Molecules        | Transformer | Scaffold                           | 2.7M  | [2022](https://github.com/hnlab/3D-Scaffold)    |
-|                    | MOFTransformer | Autoregressive | Metal-organic Frameworks | Transformer | Property                           | 10.3M | [2023](https://github.com/QC-MM/MOFTransformer) |
-|                    | E3Diff         | Autoregressive | Atomic Systems           | Transformer | Property                           | 41.6M | [2023](https://github.com/Graph-COM/E3Diff)     |
-|                    | GaUDI          | Autoregressive | Molecules, MOFs          | Transformer | Text                               | -     | [2024](https://github.com/snap-stanford/gaudi)  |
-|                    | MatterGen-XL   | Autoregressive | Inorganic Crystals       | Transformer | Composition, Space Group, Property | 430M  | [2025](https://github.com/microsoft/mattergen)  |
 
 ---
 
