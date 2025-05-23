@@ -1,4 +1,4 @@
-# Awesome-AI-for-Materials-Generation
+# Awesome-AI-for-Materials-Generation | [arXiv](https://arxiv.org/pdf/2505.16379)
 
 
 ## Deep Generative Models for Materials Design
@@ -14,6 +14,10 @@ The discovery of novel materials with desired physical, chemical, or mechanical 
 * A taxonomy of DGM-based crystal generation methods.
 * A comparative analysis of architectures, conditioning schemes, and model sizes.
 * A collection of open datasets used for training generative models.
+
+
+![image](https://github.com/user-attachments/assets/294ceb21-52e6-42a2-94c5-08fc09380494)
+
 
 ---
 
