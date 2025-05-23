@@ -103,7 +103,7 @@ This repository presents a curated and comprehensive overview of deep generative
 * **[Cond-CDVAE]** *Deep learning generative model for crystal structure prediction* [[Paper](https://www.nature.com/articles/s41524-024-01443-y.pdf) | [Code](https://github.com/ixsluo/cond-cdvae)]
 ![Method](https://img.shields.io/badge/Method-Diffusion-purple)
 
-* **[Con-CDVAE]** *Con-CDVAE: A method for the conditional generation of crystal structures* [[Paper](Con-CDVAE: A method for the conditional generation of crystal structures) | [Code](https://github.com/cyye001/Con-CDVAE)]
+* **[Con-CDVAE]** *Con-CDVAE: A method for the conditional generation of crystal structures* [[Paper](https://www.sciencedirect.com/science/article/pii/S2950463524000036) | [Code](https://github.com/cyye001/Con-CDVAE)]
 ![Method](https://img.shields.io/badge/Method-Diffusion-purple)
 
 * **[StructRepDiff]** *Representation-space diffusion models for generating periodic materials* [[Paper](https://arxiv.org/pdf/2408.07213)]
