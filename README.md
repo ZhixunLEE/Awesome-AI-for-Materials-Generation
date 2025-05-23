@@ -20,30 +20,92 @@ The discovery of novel materials with desired physical, chemical, or mechanical 
 ### Model Summary
 
 
-| Category      | Model        | Method           | Materials                           | Backbone               | Condition                             | Size             | Code & Year |
-|---------------|--------------|------------------|-------------------------------------|------------------------|----------------------------------------|------------------|-------------|
-| **VAE**       | iMatGen [2019](https://github.com/kaist-amsg/imatgen) | VAE              | Inorganic Crystals                  | CNN                    | Composition, Property                  | ~7M              | 2019        |
-|               | Cond-DFC-VAE [2020](https://github.com/by256/icsg3d) | VAE              | Inorganic Crystals                  | CNN                    | Property                               | -                | 2020        |
-|               | FTCP [2022](https://github.com/PV-Lab/FTCP)          | VAE              | Inorganic Crystals                  | CNN                    | Property                               | -                | 2022        |
-|               | PCVAE [2023](https://github.com/zjuKeLiu/PCVAE)      | VAE              | Inorganic Crystals                  | MLP                    | Composition                            | ~3M              | 2023        |
-|               | WyCryst [2024](https://github.com/RaymondZhurm/WyCryst) | VAE           | Inorganic Crystals                  | CNN                    | Composition, Property                  | -                | 2024        |
-|               | MagGen [2024]                                        | VAE              | Permanent Magnets                   | -                      | Property                               | -                | 2024        |
-
+| Category | Model        | Method | Materials          | Backbone | Condition             | Size | Code & Year                                     |
+| -------- | ------------ | ------ | ------------------ | -------- | --------------------- | ---- | ----------------------------------------------- |
+| **VAE**  | iMatGen      | VAE    | Inorganic Crystals | CNN      | Composition, Property | \~7M | [2019](https://github.com/kaist-amsg/imatgen)   |
+|          | Cond-DFC-VAE | VAE    | Inorganic Crystals | CNN      | Property              | -    | [2020](https://github.com/by256/icsg3d)         |
+|          | FTCP         | VAE    | Inorganic Crystals | CNN      | Property              | -    | [2022](https://github.com/PV-Lab/FTCP)          |
+|          | PCVAE        | VAE    | Inorganic Crystals | MLP      | Composition           | \~3M | [2023](https://github.com/zjuKeLiu/PCVAE)       |
+|          | WyCryst      | VAE    | Inorganic Crystals | CNN      | Composition, Property | -    | [2024](https://github.com/RaymondZhurm/WyCryst) |
+|          | MagGen       | VAE    | Permanent Magnets  | -        | Property              | -    | 2024                                            |
 
 ---
 
-| Category      | Model        | Method           | Materials                           | Backbone               | Condition                             | Size             | Code & Year |
-|---------------|--------------|------------------|-------------------------------------|------------------------|----------------------------------------|------------------|-------------|
-| **GAN**       | GANCSP [2020](https://github.com/kaist-amsg/Composition-Conditioned-Crystal-GAN) | GAN | Inorganic Crystals | CNN | Composition | ~4M | 2020 |
-|               | CCDCGAN [2021]                                       | GAN              | Inorganic Crystals                  | CNN                    | Composition, Property                  | -                | 2021        |
-|               | ZeoGAN [2020](https://github.com/good4488/ZeoGAN)    | GAN              | Zeolites                            | CNN                    | Property                               | ~39M             | 2020        |
-|               | PGCGM [2023](https://github.com/MilesZhao/PGCGM)     | GAN              | Inorganic Crystals                  | CNN                    | Composition, Space Group              | ~5.5M            | 2023        |
-|               | GAN-DDLSF [2024]                                     | GAN              | Gallium Nitride                     | -                      | Composition                            | -                | 2024        |
-|               | NSGAN [2024](https://github.com/anucecszl/NSGAN_aluminium) | GAN       | Aluminium Alloys                   | MLP                    | Composition, Property                  | ~5K              | 2024        |
-|               | MatGAN [2020]                                        | GAN              | Inorganic Crystals                  | CNN                    | Property                               | -                | 2020        |
-|               | CubicGAN [2021]                                      | GAN              | Cubic Crystal                       | CNN                    | Composition, Space Group              | -                | 2021        |
-|               | DeepCSP [2024]                                       | GAN              | Organic Crystal                     | GCN                    | Composition                            | -                | 2024        |
-|               | CGWGAN [2024](https://github.com/WPEM/CGWGAN)        | GAN              | Inorganic Crystals                  | MLP                    | Composition                            | 0.38M            | 2024        |
+| Category | Model     | Method | Materials          | Backbone | Condition                | Size   | Code & Year                                                               |
+| -------- | --------- | ------ | ------------------ | -------- | ------------------------ | ------ | ------------------------------------------------------------------------- |
+| **GAN**  | GANCSP    | GAN    | Inorganic Crystals | CNN      | Composition              | \~4M   | [2020](https://github.com/kaist-amsg/Composition-Conditioned-Crystal-GAN) |
+|          | CCDCGAN   | GAN    | Inorganic Crystals | CNN      | Composition, Property    | -      | 2021                                                                      |
+|          | ZeoGAN    | GAN    | Zeolites           | CNN      | Property                 | \~39M  | [2020](https://github.com/good4488/ZeoGAN)                                |
+|          | PGCGM     | GAN    | Inorganic Crystals | CNN      | Composition, Space Group | \~5.5M | [2023](https://github.com/MilesZhao/PGCGM)                                |
+|          | GAN-DDLSF | GAN    | Gallium Nitride    | -        | Composition              | -      | 2024                                                                      |
+|          | NSGAN     | GAN    | Aluminium Alloys   | MLP      | Composition, Property    | \~5K   | [2024](https://github.com/anucecszl/NSGAN_aluminium)                      |
+|          | MatGAN    | GAN    | Inorganic Crystals | CNN      | Property                 | -      | 2020                                                                      |
+|          | CubicGAN  | GAN    | Cubic Crystal      | CNN      | Composition, Space Group | -      | 2021                                                                      |
+|          | DeepCSP   | GAN    | Organic Crystal    | GCN      | Composition              | -      | 2024                                                                      |
+|          | CGWGAN    | GAN    | Inorganic Crystals | MLP      | Composition              | 0.38M  | [2024](https://github.com/WPEM/CGWGAN)                                    |
+
+---
+
+| Category      | Model         | Method | Materials                           | Backbone             | Condition                          | Size          | Code & Year                                                                |
+| ------------- | ------------- | ------ | ----------------------------------- | -------------------- | ---------------------------------- | ------------- | -------------------------------------------------------------------------- |
+| **Diffusion** | CDVAE         | SMLD   | Inorganic Crystals                  | DimeNet+GemNet       | Property                           | 4.5M          | [2021](https://github.com/txie-93/cdvae)                                   |
+|               | Cond-CDVAE    | SMLD   | Inorganic Crystals                  | DimeNet+GemNet       | Composition, Property              | 4M/86M        | [2024](https://github.com/ixsluo/cond-cdvae)                               |
+|               | Con-CDVAE     | SMLD   | Inorganic Crystals                  | DimeNet+GemNet       | Composition, Property              | \~5M          | [2024](https://github.com/cyye001/Con-CDVAE)                               |
+|               | P-CDVAE       | SMLD   | Inorganic Crystals                  | DimeNet+GemNet       | Composition, Property              | -             | 2023                                                                       |
+|               | LCOMs         | SMLD   | Inorganic Crystals                  | DimeNet+GemNet       | Composition                        | 4.5M          | 2023                                                                       |
+|               | StructRepDiff | DDPM   | Inorganic Crystals                  | U-Net                | -                                  | 1\~10M        | 2024                                                                       |
+|               | DiffCSP       | DDPM   | Inorganic Crystals                  | Periodic GNN         | Composition                        | 12.3M         | [2023](https://github.com/jiaor17/DiffCSP)                                 |
+|               | UniMat        | DDPM   | Inorganic Crystals                  | U-Net                | Composition, Property              | -             | [2023](https://unified-Crystals.github.io/unimat/)                         |
+|               | DiffCSP++     | DDPM   | Inorganic Crystals                  | Periodic GNN         | Composition, Space Group           | 12.3M         | [2024](https://github.com/jiaor17/DiffCSP-PP)                              |
+|               | GemsDiff      | DDPM   | Inorganic Crystals                  | GemsNet              | Composition                        | 2.8M          | [2024](https://github.com/aklipf/gemsdiff)                                 |
+|               | EquiCSP       | DDPM   | Inorganic Crystals                  | Periodic GNN         | Composition                        | 12.3M         | [2024](https://github.com/EmperorJia/EquiCSP)                              |
+|               | FlowMM        | RFM    | Inorganic Crystals                  | Periodic GNN         | Composition                        | 12.3M         | [2024](https://github.com/facebookresearch/flowmm)                         |
+|               | SuperDiff     | DDPM   | Superconductors                     | U-Net                | Composition, Property              | -             | [2024](https://github.com/sdkyuanpanda/SuperDiff)                          |
+|               | SymmCD        | DDPM   | Inorganic Crystals                  | Periodic GNN         | Composition, Space Group           | 12.3M         | [2025](https://github.com/sibasmarak/SymmCD)                               |
+|               | MOFDiff       | SMLD   | Metal-organic Frameworks            | GemNet               | Property                           | 27.2M         | [2023](https://github.com/microsoft/MOFDiff)                               |
+|               | MatterGen     | DDPM   | Inorganic Crystals                  | GemNet               | Composition, Space Group, Property | 46.8M         | [2025](https://github.com/microsoft/mattergen)                             |
+|               | MOFFlow       | RFM    | Metal-organic Frameworks            | EGNN+OpenFold        | Composition                        | 22.5M         | [2024](https://github.com/nayoung10/MOFFlow)                               |
+|               | CrystalFlow   | RFM    | Inorganic Crystals                  | Periodic GNN         | Composition, Property              | 12.3M         | [2024](https://github.com/ixsluo/CrystalFlow)                              |
+|               | ADiT          | LFM    | Atomic Systems                      | Transformer          | -                                  | 32M/130M/450M | [2025](https://github.com/facebookresearch/all-atom-diffusion-transformer) |
+|               | DAO           | DDPM   | Inorganic Crystals, Superconductors | Periodic Transformer | Composition, Property              | -             | 2025                                                                       |
+|               | CrystalGRW    | GRW    | Inorganic Crystals                  | EquiformerV2         | Property                           | 34.9M         | [2025](https://github.com/trachote/crystalgrw)                             |
+
+---
+
+### Autoregressive Methods
+
+| Category           | Model          | Method         | Materials                | Backbone    | Condition                          | Size  | Code & Year                                     |
+| ------------------ | -------------- | -------------- | ------------------------ | ----------- | ---------------------------------- | ----- | ----------------------------------------------- |
+| **Autoregressive** | 3D-Scaffold    | Autoregressive | Organic Molecules        | Transformer | Scaffold                           | 2.7M  | [2022](https://github.com/hnlab/3D-Scaffold)    |
+|                    | MOFTransformer | Autoregressive | Metal-organic Frameworks | Transformer | Property                           | 10.3M | [2023](https://github.com/QC-MM/MOFTransformer) |
+|                    | E3Diff         | Autoregressive | Atomic Systems           | Transformer | Property                           | 41.6M | [2023](https://github.com/Graph-COM/E3Diff)     |
+|                    | GaUDI          | Autoregressive | Molecules, MOFs          | Transformer | Text                               | -     | [2024](https://github.com/snap-stanford/gaudi)  |
+|                    | MatterGen-XL   | Autoregressive | Inorganic Crystals       | Transformer | Composition, Space Group, Property | 430M  | [2025](https://github.com/microsoft/mattergen)  |
+
+---
+
+### Hybrid Methods
+
+| Category   | Model             | Method                      | Materials                | Backbone     | Condition             | Size  | Code & Year                                              |
+| ---------- | ----------------- | --------------------------- | ------------------------ | ------------ | --------------------- | ----- | -------------------------------------------------------- |
+| **Hybrid** | DiffGen           | VAE + DDPM                  | Inorganic Crystals       | GNN          | Composition, Property | 5.6M  | [2024](https://github.com/RaymondZhurm/DiffGen)          |
+|            | RFusion           | RFM + DDPM                  | Inorganic Crystals       | Periodic GNN | Composition           | 12.3M | [2025](https://github.com/ixsluo/RFusion)                |
+|            | MOF-DDTransformer | Autoregressive + DDPM       | Metal-organic Frameworks | Transformer  | Composition           | 25.4M | [2025](https://github.com/WendyMinhui/MOF-DDTransformer) |
+|            | Uni-MolGen        | VAE + Autoregressive + DDPM | Molecules                | Transformer  | Property              | 110M  | [2025](https://github.com/OpenBioLink/Uni-MolGen)        |
+
+---
+
+### Others
+
+| Category   | Model      | Method                       | Materials          | Backbone    | Condition   | Size  | Code & Year                                           |
+| ---------- | ---------- | ---------------------------- | ------------------ | ----------- | ----------- | ----- | ----------------------------------------------------- |
+| **Others** | SMG        | Transformer + RL             | Inorganic Crystals | Transformer | Composition | -     | [2023](https://github.com/zhengcheng233/SMG)          |
+|            | CrystGen   | Evolutionary + Transformer   | Inorganic Crystals | Transformer | Composition | 12.3M | [2024](https://github.com/zhengcheng233/CrystGen)     |
+|            | AtomCraft  | Autoregressive + Monte Carlo | Inorganic Crystals | GNN         | Composition | -     | [2024](https://github.com/facebookresearch/atomcraft) |
+|            | CrysTens   | GAN + VAE                    | Inorganic Crystals | CNN         | -           | -     | [2023](https://github.com/Colin-Berry/CrysTens)       |
+|            | CrystalGPT | GPT                          | Inorganic Crystals | GPT         | -           | -     | [2024](https://github.com/jiaor17/CrystalGPT)         |
+|            | DiffSeg    | DDPM + MLP                   | Inorganic Crystals | U-Net + MLP | Composition | 12.3M | [2024](https://github.com/xchen0109/DiffSeg)          |
+
 
 ---
 
