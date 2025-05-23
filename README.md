@@ -76,32 +76,6 @@ The discovery of novel materials with desired physical, chemical, or mechanical 
 
 
 
-
----
-
-### Hybrid Methods
-
-| Category   | Model             | Method                      | Materials                | Backbone     | Condition             | Size  | Code & Year                                              |
-| ---------- | ----------------- | --------------------------- | ------------------------ | ------------ | --------------------- | ----- | -------------------------------------------------------- |
-| **Hybrid** | DiffGen           | VAE + DDPM                  | Inorganic Crystals       | GNN          | Composition, Property | 5.6M  | [2024](https://github.com/RaymondZhurm/DiffGen)          |
-|            | RFusion           | RFM + DDPM                  | Inorganic Crystals       | Periodic GNN | Composition           | 12.3M | [2025](https://github.com/ixsluo/RFusion)                |
-|            | MOF-DDTransformer | Autoregressive + DDPM       | Metal-organic Frameworks | Transformer  | Composition           | 25.4M | [2025](https://github.com/WendyMinhui/MOF-DDTransformer) |
-|            | Uni-MolGen        | VAE + Autoregressive + DDPM | Molecules                | Transformer  | Property              | 110M  | [2025](https://github.com/OpenBioLink/Uni-MolGen)        |
-
----
-
-### Others
-
-| Category   | Model      | Method                       | Materials          | Backbone    | Condition   | Size  | Code & Year                                           |
-| ---------- | ---------- | ---------------------------- | ------------------ | ----------- | ----------- | ----- | ----------------------------------------------------- |
-| **Others** | SMG        | Transformer + RL             | Inorganic Crystals | Transformer | Composition | -     | [2023](https://github.com/zhengcheng233/SMG)          |
-|            | CrystGen   | Evolutionary + Transformer   | Inorganic Crystals | Transformer | Composition | 12.3M | [2024](https://github.com/zhengcheng233/CrystGen)     |
-|            | AtomCraft  | Autoregressive + Monte Carlo | Inorganic Crystals | GNN         | Composition | -     | [2024](https://github.com/facebookresearch/atomcraft) |
-|            | CrysTens   | GAN + VAE                    | Inorganic Crystals | CNN         | -           | -     | [2023](https://github.com/Colin-Berry/CrysTens)       |
-|            | CrystalGPT | GPT                          | Inorganic Crystals | GPT         | -           | -     | [2024](https://github.com/jiaor17/CrystalGPT)         |
-|            | DiffSeg    | DDPM + MLP                   | Inorganic Crystals | U-Net + MLP | Composition | 12.3M | [2024](https://github.com/xchen0109/DiffSeg)          |
-
-
 ---
 
 ###  Datasets for Material Generation
