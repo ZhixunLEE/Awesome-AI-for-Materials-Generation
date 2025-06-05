@@ -47,6 +47,9 @@ This repository presents a curated and comprehensive overview of deep generative
 
 ### 2025
 
+* **[Chemeleon]** *Exploration of crystal chemical space using text-guided generative artificial intelligence* [[Paper](https://www.nature.com/articles/s41467-025-59636-y) | [Code](https://github.com/hspark1212/chemeleon)]
+![Method](https://img.shields.io/badge/Method-Diffusion-purple)
+
 * **[SymmCD]** *SymmCD: Symmetry-Preserving Crystal Generation with Diffusion Models* [[Paper](https://arxiv.org/pdf/2502.03638) | [Code](https://github.com/sibasmarak/SymmCD)]
 ![Method](https://img.shields.io/badge/Method-Diffusion-purple)
 
