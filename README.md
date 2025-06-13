@@ -47,6 +47,18 @@ This repository presents a curated and comprehensive overview of deep generative
 
 ### 2025
 
+* **[KLDM]** *Kinetic Langevin Diffusion for Crystalline Materials Generation*
+![Method](https://img.shields.io/badge/Method-Diffusion-purple)
+
+* **[WyckoffDiff]** *WyckoffDiff -- A Generative Diffusion Model for Crystal Symmetry* [[Paper](https://arxiv.org/pdf/2502.06485) | [Code](https://github.com/httk/wyckoffdiff)]
+![Method](https://img.shields.io/badge/Method-Diffusion-purple)
+
+* **[Wyckoff Transformer]** *Wyckoff Transformer: Generation of Symmetric Crystals* [[Paper](https://arxiv.org/pdf/2503.02407) | [Code](https://github.com/SymmetryAdvantage/WyckoffTransformer)]
+![Method](https://img.shields.io/badge/Method-Autoregressive-red)
+
+* **[OMG]** *Open Materials Generation with Stochastic Interpolants* [[Paper](https://arxiv.org/pdf/2502.02582?)]
+![Method](https://img.shields.io/badge/Method-Diffusion-purple)
+
 * **[Chemeleon]** *Exploration of crystal chemical space using text-guided generative artificial intelligence* [[Paper](https://www.nature.com/articles/s41467-025-59636-y) | [Code](https://github.com/hspark1212/chemeleon)]
 ![Method](https://img.shields.io/badge/Method-Diffusion-purple)
 
@@ -194,6 +206,9 @@ This repository presents a curated and comprehensive overview of deep generative
 ![Method](https://img.shields.io/badge/Method-Others-gray)
 
 * **[CHGlownet]** *Hierarchical GFlownet for Crystal Structure Generation* [[Paper](https://openreview.net/pdf?id=dJuDv4MKLE)]
+![Method](https://img.shields.io/badge/Method-Others-gray)
+
+* **[Crystal-GFN]** *Crystal-GFN: sampling crystals with desirable properties and constraints* [[Paper](https://arxiv.org/pdf/2310.04925) | [Code](https://github.com/alexhernandezgarcia/gflownet)]
 ![Method](https://img.shields.io/badge/Method-Others-gray)
 
 ### 2022
