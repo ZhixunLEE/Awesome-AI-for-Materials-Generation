@@ -47,6 +47,9 @@ This repository presents a curated and comprehensive overview of deep generative
 
 ### 2025
 
+* **[VQCrystal]** *Massive discovery of crystal structures across dimensionalities by leveraging vector quantization* [[Paper](https://www.nature.com/articles/s41524-025-01613-6.pdf) | [Code](https://github.com/Fatemoisted/VQCrystal)]
+![Method](https://img.shields.io/badge/Method-VAE-blue)
+
 * **[KLDM]** *Kinetic Langevin Diffusion for Crystalline Materials Generation*
 ![Method](https://img.shields.io/badge/Method-Diffusion-purple)
 
